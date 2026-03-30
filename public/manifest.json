@@ -1,0 +1,42 @@
+{
+  "name": "MindScope — Santé Mentale",
+  "short_name": "MindScope",
+  "description": "Évaluations de santé mentale, suivi de l'humeur et journal de bien-être. 100% privé, anonyme.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "lang": "fr",
+  "categories": ["health", "medical", "lifestyle"],
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Suivi de l'humeur",
+      "short_name": "Humeur",
+      "description": "Ajouter une entrée d'humeur aujourd'hui",
+      "url": "./history/"
+    },
+    {
+      "name": "Faire un test",
+      "short_name": "Tests",
+      "description": "Passer une évaluation",
+      "url": "./tests/"
+    }
+  ]
+}

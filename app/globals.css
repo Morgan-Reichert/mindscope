@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --background: 248 250 252;
+    --foreground: 15 23 42;
+  }
+  .dark {
+    --background: 15 23 42;
+    --foreground: 248 250 252;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.25s ease-out;
+  }
+  .animate-slide-up {
+    animation: slideUp 0.4s ease-out;
+  }
+  .animate-sheet-up {
+    animation: sheetUp 0.35s cubic-bezier(0.32, 0.72, 0, 1);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes sheetUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  /* iOS momentum scrolling */
+  -webkit-overflow-scrolling: touch;
+  /* Prevent text size adjust on rotation */
+  -webkit-text-size-adjust: 100%;
+}
+
+/* iOS tap highlight removal */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Prevent iOS auto-zoom on input focus (requires font-size >= 16px) */
+@media screen and (max-width: 640px) {
+  input, textarea, select, button {
+    font-size: 16px !important;
+    line-height: 1.5 !important;
+  }
+  /* Disable text size adjustment on rotate */
+  textarea {
+    -webkit-text-size-adjust: 100% !important;
+    -ms-text-size-adjust: 100% !important;
+    text-size-adjust: 100% !important;
+    /* Prevent accidental zoom on triple-click */
+    -webkit-user-select: text !important;
+  }
+  input::selection,
+  textarea::selection {
+    background-color: rgba(59, 130, 246, 0.3);
+  }
+}
+
+/* Disable iOS pinch-zoom but keep double-tap */
+body {
+  touch-action: manipulation;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Custom scrollbar (desktop) */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}
+
+/* Chat bottom sheet animation */
+[data-chat-sheet] {
+  animation: sheetUp 0.35s cubic-bezier(0.32, 0.72, 0, 1);
+}
