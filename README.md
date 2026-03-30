@@ -1,3 +1,72 @@
+<div align="center">
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,40:302b63,100:7c3aed&height=160&section=header&text=MindScope&fontSize=40&fontColor=ffffff&fontAlignY=45&desc=Suivi%20de%20bien-être%20mental%20·%20IA%20locale%20·%20STARIAX&descAlignY=68&descColor=c4b5fd" />
+
+</div>
+
+<div align="center">
+
+[![STARIAX](https://img.shields.io/badge/Groupe-STARIAX-7c3aed?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Morgan-Reichert)
+[![Version](https://img.shields.io/badge/version-1.0-a78bfa?style=for-the-badge)](#)
+[![PWA](https://img.shields.io/badge/PWA-installable-10b981?style=for-the-badge&logo=pwa&logoColor=white)](#)
+[![IA Locale](https://img.shields.io/badge/IA-100%25%20locale-302b63?style=for-the-badge&logo=openai&logoColor=white)](#)
+
+</div>
+
+---
+
+## 📸 Aperçu
+
+> 🖼️ **Pour ajouter tes screenshots :** Upload tes images dans ce repo (onglet `Add file` → `Upload files`), puis remplace les liens `placehold.co` ci-dessous par les URLs de tes images.
+
+<table>
+<tr>
+<td width="50%" align="center">
+
+![Screenshot 1](https://placehold.co/600x340/1e1b4b/a78bfa?text=📸+Screenshot+1+—+Dashboard)
+*Dashboard principal*
+
+</td>
+<td width="50%" align="center">
+
+![Screenshot 2](https://placehold.co/600x340/0f0c29/c4b5fd?text=📸+Screenshot+2+—+Analyse+IA)
+*Analyse IA locale*
+
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+
+![Screenshot 3](https://placehold.co/600x340/302b63/ffffff?text=📸+Screenshot+3+—+Rapport+PDF)
+*Export rapport PDF*
+
+</td>
+<td width="50%" align="center">
+
+![Screenshot 4](https://placehold.co/600x340/1e1b4b/f59e0b?text=📸+Screenshot+4+—+Mobile)
+*Vue mobile (PWA)*
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧪 Tester MindScope en version bêta
+
+<div align="center">
+
+> **Tu veux tester MindScope avant tout le monde ?**
+> L'app est en phase bêta — je cherche des utilisateurs pour tester, donner leur avis et m'aider à améliorer l'expérience. Pas besoin d'être dev !
+
+[![✉️ Rejoindre la bêta](https://img.shields.io/badge/✉️%20Rejoindre%20la%20bêta%20MindScope-7c3aed?style=for-the-badge)](mailto:morgan.reichert.pro@outlook.com?subject=Beta%20MindScope&body=Bonjour%20Morgan%2C%20je%20souhaite%20tester%20MindScope%20en%20version%20bêta.)
+
+*Réponse sous 48h* 📬
+
+</div>
+
+---
+
 # MindScope — v1.0
 
 > Application web de suivi et d'analyse de la santé mentale — Groupe [Stariax Belgium](https://github.com/Morgan-Reichert/STARIAX)
@@ -98,3 +167,4 @@ MindScope fait partie du portfolio **Stariax Belgium**, groupe technologique bas
 ---
 
 *Stariax Belgium — Bruxelles, 2026*
+
