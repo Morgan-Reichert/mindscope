@@ -1,15 +1,16 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,40:0f2d25,100:10b981&height=160&section=header&text=MindScope&fontSize=40&fontColor=ffffff&fontAlignY=45&desc=Suivi%20de%20bien-être%20mental%20·%20IA%20locale%20·%20STARIAX&descAlignY=68&descColor=6ee7b7" />
+# 🧠 MindScope
 
-</div>
+### Suivi de bien-être mental · IA locale · STARIAX
 
-<div align="center">
+---
 
-[![STARIAX](https://img.shields.io/badge/Groupe-STARIAX-10b981?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Morgan-Reichert)
-[![Version](https://img.shields.io/badge/version-1.0-06d6a0?style=for-the-badge)](#)
-[![PWA](https://img.shields.io/badge/PWA-installable-059669?style=for-the-badge&logo=pwa&logoColor=white)](#)
-[![IA Locale](https://img.shields.io/badge/IA-100%25%20locale-0f2d25?style=for-the-badge&logo=openai&logoColor=white)](#)
+![Next.js](https://img.shields.io/badge/Next.js_14-black?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-installable-0f766e?style=flat-square&logo=pwa&logoColor=white)
+![IA Locale](https://img.shields.io/badge/IA-100%25_locale-1e293b?style=flat-square&logo=openai&logoColor=white)
+![Version](https://img.shields.io/badge/version-1.0-64748b?style=flat-square)
 
 </div>
 
@@ -17,22 +18,10 @@
 
 ## 🧪 Tester MindScope en version bêta
 
-<div align="center">
-
 > **Tu veux tester MindScope avant tout le monde ?**
 > L'app est en phase bêta — je cherche des utilisateurs pour tester, donner leur avis et m'aider à améliorer l'expérience. Pas besoin d'être dev !
 
-[![✉️ Rejoindre la bêta](https://img.shields.io/badge/✉️%20Rejoindre%20la%20bêta%20MindScope-10b981?style=for-the-badge)](mailto:morgan.reichert.pro@outlook.com?subject=Beta%20MindScope&body=Bonjour%20Morgan%2C%20je%20souhaite%20tester%20MindScope%20en%20version%20bêta.)
-
-*Réponse sous 48h* 📬
-
-</div>
-
----
-
-# MindScope — v1.0
-
-> Application web de suivi et d'analyse de la santé mentale — Groupe [Stariax Belgium](https://github.com/Morgan-Reichert/STARIAX)
+**→ [Rejoindre la bêta](mailto:morgan.reichert.pro@outlook.com?subject=Beta%20MindScope&body=Bonjour%20Morgan%2C%20je%20souhaite%20tester%20MindScope%20en%20version%20bêta.)** — Réponse sous 48h 📬
 
 ---
 
@@ -46,12 +35,14 @@ L'application génère des rapports PDF exportables et propose des visualisation
 
 ## Fonctionnalités
 
-- **Suivi du bien-être** : journalisation quotidienne de l'état mental
-- **Analyse IA locale** : modèle LLM embarqué via WebLLM (@mlc-ai/web-llm) — aucune donnée transmise
-- **Graphiques & visualisations** : courbes d'évolution via Recharts
-- **Export PDF** : génération de rapports complets (jsPDF + jsPDF-AutoTable)
-- **PWA** : installable sur écran d'accueil (mobile & desktop)
-- **Interface responsive** : Tailwind CSS, design mobile-first
+| | Fonctionnalité | Détail |
+|---|---|---|
+| 📓 | **Suivi du bien-être** | Journalisation quotidienne de l'état mental |
+| 🤖 | **Analyse IA locale** | Modèle LLM via WebLLM — aucune donnée transmise |
+| 📈 | **Graphiques & visualisations** | Courbes d'évolution via Recharts |
+| 📄 | **Export PDF** | Rapports complets via jsPDF + jsPDF-AutoTable |
+| 📱 | **PWA** | Installable sur écran d'accueil (mobile & desktop) |
+| 🎨 | **Interface responsive** | Tailwind CSS, design mobile-first |
 
 ---
 
@@ -129,4 +120,8 @@ MindScope fait partie du portfolio **Stariax Belgium**, groupe technologique bas
 
 ---
 
+<div align="center">
+
 *Stariax Belgium — Bruxelles, 2026*
+
+</div>
