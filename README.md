@@ -1,10 +1,16 @@
 <div align="center">
 
-# 🧠 MindScope
+<!-- HERO ANIMÉ -->
+<img src="./public/icon.svg" width="90" height="90" alt="MindScope logo" />
 
-### Suivi de bien-être mental · IA locale · STARIAX
+<br/>
 
----
+<!-- Titre animé via shields.io typing effect -->
+<a href="https://github.com/Morgan-Reichert/mindscope">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=10B981&center=true&vCenter=true&width=600&lines=MindScope+%F0%9F%A7%A0;Bien-%C3%AAtre+mental+%C2%B7+IA+locale;Privacy+first.+Always." alt="Typing SVG" />
+</a>
+
+<br/><br/>
 
 ![Next.js](https://img.shields.io/badge/Next.js_14-black?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
