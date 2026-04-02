@@ -13,42 +13,8 @@
 
 </div>
 
----
 
-## 📸 Aperçu
 
-> 🖼️ **Pour ajouter tes screenshots :** Upload tes images dans ce repo (onglet `Add file` → `Upload files`), puis remplace les liens `placehold.co` ci-dessous par les URLs de tes images.
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-![Screenshot 1](https://github.com/Morgan-Reichert/mindscope/blob/ad1e133ee75781c4a68c869d5ecb415c751bf8a5/photo%20page%20test.png/600x340/1e1b4b/a78bfa?text=📸+Screenshot+1+—+Dashboard)
-*Dashboard principal*
-
-</td>
-<td width="50%" align="center">
-
-![Screenshot 2](https://placehold.co/600x340/0f0c29/c4b5fd?text=📸+Screenshot+2+—+Analyse+IA)
-*Analyse IA locale*
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-
-![Screenshot 3](https://placehold.co/600x340/302b63/ffffff?text=📸+Screenshot+3+—+Rapport+PDF)
-*Export rapport PDF*
-
-</td>
-<td width="50%" align="center">
-
-![Screenshot 4](https://placehold.co/600x340/1e1b4b/f59e0b?text=📸+Screenshot+4+—+Mobile)
-*Vue mobile (PWA)*
-
-</td>
-</tr>
-</table>
 
 ---
 
